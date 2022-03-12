@@ -1,0 +1,17 @@
+{
+    "name": "vini/portdigital",
+    "description": "portifolio digital",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src",
+            "public\\":"public"
+        }
+    },
+    "authors": [
+        {
+            "name": "vini",
+            "email": "viniciusdnb@hotmail.com"
+        }
+    ],
+    "require": {}
+}
