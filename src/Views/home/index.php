@@ -6,12 +6,12 @@
 				<div class="card" style="width: 18rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 					<div class="row">
 
-						<img style="margin-top:5px" src="public/img/foto.jpg">
+						<img style="margin-top:5px; border-radius:15px" src="public/img/foto.jpg">
 					</div>
 					<div class="row">
 						<div class="fs-5 mb-2">
 							<?php echo $data["maleta"]; ?>
-							back-end
+							Back-End
 						</div>
 					</div>
 					<div class="row">
@@ -117,10 +117,35 @@
 							</div>
 							<div class="col p-2">
 								<div class="row">
-									<strong>Apresentação</strong>
+									<h3>Apresentação</h3>
 								</div>
 								<div class="row p-3">
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime corporis aut consequatur illo necessitatibus dolore minima eaque harum cupiditate, eveniet culpa illum repellendus nesciunt voluptatum accusantium temporibus voluptates suscipit sed.
+									<p>Sou estudante de programação, estudo por conta propria e adoro fazer exercicios de logica. focado em back-end querendo entender todo funcionamento do computador e a nossa mente.</p>
+									<strong>Exercicios</strong>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/10001stprime.js">10001° numero primo</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/LargestNumberFactor.php">Maior fator primo</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/LargestPalindromeProduct.php">Maior produto palindromo</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/Largestproductinaseries.js">Maior produto de uma serie (erro)</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/Smallestmultiple.js">Menor multiplo (nao funcional com numeros grande)</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/Summationofprimes.js">Soma de numeros primos</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/Sumsquaredifference.js">Diferenca quadrada de soma</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/longestCollatzSequence.js">Sequencia de collatz mais longa</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/numerosMultipo3e5.js">Multiplo de 3 ou 5</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/sequenciaFibonacc.js">Sequencia de Fibonacci</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/triangleNumberWith500Divisors.js">Numero triangular altamente divizivel</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/Borders-Previewer/blob/main/index.html">Bordas</a></li>
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/Bin2Dec-PHP">Binario para decimal</a></li>
+									</ul>
+									<br><br>
+									<hr>
+									<strong>Projetos</strong>
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">Sistema de Controle de pedido e contação para empresa de licitação em PHP</li>
+										<li class="list-group-item">MiniFramework MVC em PHP</li>
+										<li class="list-group-item">Sistema para controle e emissao de etiquetas em PHP</li>
+										<li class="list-group-item"></li>
+									<ul>
 								</div>
 							</div>
 						</div>
