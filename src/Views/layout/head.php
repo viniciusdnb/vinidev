@@ -7,5 +7,10 @@
 	<link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<script src="public/js/bootstrap.min.js"></script>
 	<title>Document</title>
+	<style>
+		body{
+			background-color: #F0FFF0;
+		}
+	</style>
 </head>
 <body>

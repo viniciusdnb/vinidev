@@ -15,6 +15,9 @@ class HomeController extends RouterController
 		$this->setData("cphp", $this->cphp());
 		$this->setData("cjs", $this->cjs());
 		$this->setData("chtml", $this->chtml());
+		$this->setData("expHavetech", $this->expHavetech());
+		$this->setData("expVital", $this->expVital());
+		$this->setData("expPolifilme", $this->expPolifilme());
 		$this->render("home/index");
 	}
 
@@ -58,6 +61,24 @@ class HomeController extends RouterController
 	function chtml()
 	{
 		return '<strong><a style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/html/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
+	}
+
+	function expHavetech()
+	{
+		return "	 Setor de Planejamento e Controle de Produção: implementação de sistema ERP. controle, planejamento, apontamento, matérias prima e produção.
+		 Setor financeiro: cobrança, baixa de títulos, conciliação bancaria, emissão de boletos, relatórios.
+		 Setor de faturamento: emissão de nota fiscal, conferencia de impostos, CFOP, CST, IPI, ICMS, PIS COFINS.
+		comunicação diária com o setor de vendas...";
+	}
+
+	function expVital()
+	{
+		return "Toda rotina administrativa logística e financeira e vendas, suporte ao setor comercial, criação de estratégia e software em MS Access ou PHP 7 - HTML 5 - CSS3 e JavaScript para melhoria de procedimentos interno ou externo, resposta de cotação, emissão de relatórios provisionamento de vendas e compras. conhecimento em materiais descartáveis e medicamento de uso humano hospitalar. atividades operacionais, lançamentos de entrada e saídas de produtos. Atualização diária de planilhas e sistema para controles interna e externo, saldo e extrato bancário, movimentação financeira, emissão de boleto bancário, contas a pagar e a receber. Auxilio na emissão conferência do faturamento e entrada de notas fiscais, controle de estoque e logística de entrega e recebimento de mercadoria, controle de materiais em terceiro e cobrança e atendimento ao cliente (suporte, duvidas etc.), liderança de equipe. Planejamento e controle de produção (PCP) engenharia de produto, Programação da fabrica, emissão de relatórios reportados diariamente e mensalmente a diversos setores, emissão de ordem de fabricação, levantamento diário de produtividade";
+	}
+
+	function expPolifilme()
+	{
+		return "Toda rotina administrativa logística, atividades operacionais, lançamentos de entrada e saídas de produtos. Atualização diária das planilhas para controles internos e externo. Auxilio na emissão e conferência do faturamento (CFOP, NCM, noção básica ICMS, ST, IPI e Arquivos XML), controle de estoque e logística de entrega e recebimento de mercadoria, controle de materiais em terceiro e atendimento ao cliente (suporte, duvidas etc.), liderança de equipe. Planejamento e controle de produção (PCP) engenharia de produto, Programação da fabrica, emissão de relatórios reportados diariamente e mensalmente a diversos setores, emissão de ordem de fabricação, levantamento diário de produtividade";
 	}
 }
 
