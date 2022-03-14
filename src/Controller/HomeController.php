@@ -18,9 +18,18 @@ class HomeController extends RouterController
 		$this->setData("expHavetech", $this->expHavetech());
 		$this->setData("expVital", $this->expVital());
 		$this->setData("expPolifilme", $this->expPolifilme());
+		$this->setData("cgit", $this->cgit());
+		$this->setData("git", $this->git());
+		$this->setData("ccss", $this->ccss());
 		$this->render("home/index");
 	}
-
+	function ccss()
+	{
+		return '<strong><a target="_blank" style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/css/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
+	}
+	function cgit(){
+		return '<strong><a target="_blank" style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/git/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
+	}
 	function maleta()
 	{
 		return '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
@@ -51,16 +60,16 @@ class HomeController extends RouterController
 
 	function cphp()
 	{
-		return '<strong><a style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/php/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
+		return '<strong><a target="_blank" style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/php/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
 	}
 
 	function cjs(){
-		return '<strong><a style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/javascript/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
+		return '<strong><a target="_blank" style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/javascript/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
 	}
 
 	function chtml()
 	{
-		return '<strong><a style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/html/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
+		return '<strong><a target="_blank" style="text-decoration:none;" href="https://www.devmedia.com.br/certificado/tecnologia/html/vinicius-henrique-costa-da-silva">Certificado</a></strong>';
 	}
 
 	function expHavetech()
@@ -79,6 +88,13 @@ class HomeController extends RouterController
 	function expPolifilme()
 	{
 		return "Toda rotina administrativa logística, atividades operacionais, lançamentos de entrada e saídas de produtos. Atualização diária das planilhas para controles internos e externo. Auxilio na emissão e conferência do faturamento (CFOP, NCM, noção básica ICMS, ST, IPI e Arquivos XML), controle de estoque e logística de entrega e recebimento de mercadoria, controle de materiais em terceiro e atendimento ao cliente (suporte, duvidas etc.), liderança de equipe. Planejamento e controle de produção (PCP) engenharia de produto, Programação da fabrica, emissão de relatórios reportados diariamente e mensalmente a diversos setores, emissão de ordem de fabricação, levantamento diário de produtividade";
+	}
+
+	function git()
+	{
+		return '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+		<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+	</svg>';
 	}
 }
 

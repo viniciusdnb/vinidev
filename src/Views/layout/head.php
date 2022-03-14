@@ -10,6 +10,12 @@
 	<style>
 		body{
 			background-color: #F0FFF0;
+			
+			
+		}
+		a{
+			text-decoration: none;
+			color: black;
 		}
 	</style>
 </head>

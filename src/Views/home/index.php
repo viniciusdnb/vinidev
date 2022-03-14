@@ -5,9 +5,9 @@
 			<div class="row">
 				<div class="card" style="width: 18rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 					<div class="row">
-
 						<img style="margin-top:5px; border-radius:15px" src="public/img/foto.jpg">
 					</div>
+					<hr>
 					<div class="row">
 						<div class="fs-5 mb-2">
 							<?php echo $data["maleta"]; ?>
@@ -22,6 +22,12 @@
 					</div>
 					<div class="row">
 						<div class="fs-5 mb-2">
+							<?php echo $data["git"]; ?>
+							<a href="https://github.com/viniciusdnb" style="text-decoration:none; color:black;"target="_blank">viniciusdnb</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="fs-5 mb-2">
 							<?php echo $data["carta"]; ?>
 							vinidev@vinidev.com
 						</div>
@@ -32,12 +38,12 @@
 							(55-11) 9.4051-9077
 						</div>
 					</div>
-
+				<hr>
 					<h3>Habilidades:</h3>
 					<div class="accordion" id="accordionExample">
-						<div class="accordion-item">
+						<div id="php" class="accordion-item" style="border: 1px solid #0080ff;">
 							<h2 class="accordion-header" id="headingOne">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<button style="background-color: #66b3ff;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 									<img src="https://img.icons8.com/windows/64/000000/php-logo.png" />
 								</button>
 							</h2>
@@ -50,9 +56,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
+						<div id="javascript" class="accordion-item" style="border: 1px solid #ffff33;">
 							<h2 class="accordion-header" id="headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								<button style="background-color:#ffff99" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 									<img src="https://img.icons8.com/ios/50/000000/javascript--v1.png" />
 								</button>
 							</h2>
@@ -64,9 +70,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
+						<div id="html" class="accordion-item" style="border: 1px solid #ff751a;">
 							<h2 class="accordion-header" id="headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								<button style="background-color: #ffa366;"class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 									<img src="https://img.icons8.com/ios/50/000000/html-5--v1.png" />
 								</button>
 							</h2>
@@ -77,29 +83,55 @@
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
+						<div id="git" class="accordion-item" style="border: 1px solid red;">
 							<h2 class="accordion-header" id="headingFor">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+								<button style="background-color:#ff531a;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
 									<img src="https://img.icons8.com/ios/50/000000/git.png" />
 								</button>
 							</h2>
 							<div id="collapseFor" class="accordion-collapse collapse" aria-labelledby="headingFor" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
-									<p>Tags Básica, Meta tags, Tags HTML, Tabelas, HTML sematico, Formulario</p>
+									<p>Principais comando</p>
 									<?php echo $data["cgit"]; ?>
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
+						<div id="css" class="accordion-item" style="border: 1px solid #1aa3ff">
 							<h2 class="accordion-header" id="headingFive">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								<button style="background-color:#66c2ff;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 									<img src="https://img.icons8.com/ios/60/000000/css3.png" />
 								</button>
 							</h2>
 							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
-									<p>Tags Básica, Meta tags, Tags HTML, Tabelas, HTML sematico, Formulario</p>
+									<p></p>
 									<?php echo $data["ccss"]; ?>
+								</div>
+							</div>
+						</div>
+						<div id="sql" class="accordion-item" style="border: 1px solid gray">
+							<h2 class="accordion-header" id="headingsix">
+								<button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+								<img src="https://img.icons8.com/ios/50/000000/accept-database.png"/>
+								</button>
+							</h2>
+							<div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>comandos SQL - CRUD Create Read Mpadate Delete - Modelagem de Dados</p>
+									
+								</div>
+							</div>
+						</div>
+						<div id="linux" class="accordion-item" style="border: 1px solid black">
+							<h2 class="accordion-header" id="headingSeven">
+								<button style="background-color:#e6ccff;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+								<img src="https://img.icons8.com/wired/64/000000/linux.png"/>
+								</button>
+							</h2>
+							<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSevene" data-bs-parent="#accordionExample">
+								<div class="accordion-body">
+									<p>Comandos Basicos - Ubuntu</p>
+									
 								</div>
 							</div>
 						</div>
@@ -121,7 +153,14 @@
 								</div>
 								<div class="row p-3">
 									<p>Sou estudante de programação, estudo por conta propria e adoro fazer exercicios de logica. focado em back-end querendo entender todo funcionamento do computador e a nossa mente.</p>
+									<p>Um pouco de experiencia e estudos em andamento PHP, javascript, html, git, css, sql linux, matematica para desenvolvedores.</p>
 									<strong>Exercicios</strong>
+									<style>
+										li:hover{
+											background-color:  #e6ffff;
+											cursor: pointer;
+										}
+									</style>
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/10001stprime.js">10001° numero primo</a></li>
 										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/LargestNumberFactor.php">Maior fator primo</a></li>
