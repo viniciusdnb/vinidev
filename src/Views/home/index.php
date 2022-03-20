@@ -162,6 +162,7 @@
 										}
 									</style>
 									<ul class="list-group list-group-flush">
+										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://localhost/portdigital/calculadora">Calculadora</a></li>
 										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/10001stprime.js">10001° numero primo</a></li>
 										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/LargestNumberFactor.php">Maior fator primo</a></li>
 										<li class="list-group-item"><a style="text-decoration:none; color:black;" target="_blank" href="https://github.com/viniciusdnb/projectEuler/blob/main/LargestPalindromeProduct.php">Maior produto palindromo</a></li>
